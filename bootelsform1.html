@@ -1,0 +1,298 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Landing Page</title>
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/webform1/css/bootelsstyle1.css" >
+     <script>
+    
+      
+function validation() {
+        if (document.myform.name.value == ""){ // == is comparison... = is assignment
+            document.getElementById('errors').innerHTML = "Please enter your first name.";
+            return false;
+        }
+        else
+            return true ;//Don't forget to return true if everything checks out
+        }
+
+</script>
+</head>
+<body>
+<div class=" container-fluid">
+      <div class=" header row">
+        <div class=" col-sm-6 col-md-4">
+          <img src="/webform/images/els-logo.png" alt="els image">
+        </div>
+        <div class=" col-sm-6 col-md-8">
+                    <div id="google_translate_element">
+                    </div>
+                    <script type="text/javascript">
+                      function googleTranslateElementInit() {
+                      new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                        }
+                    </script>
+                     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          </div>   
+        </div>
+  </div>
+         <div class=" container-fluid">
+               <div class=" background row">
+                    <div class="  col-md-12">
+                        <img src="/webform1/images/elsimg1.jpg" alt="backgroundimage" class="img-responsive  hidden-sm hidden-xs">
+                         <img src="/webform1/images/elsimgsm1.jpg" alt="backgroundimage" class="img-responsive  visible-sm visible-xs">
+                    </div>
+               </div>
+         </div>
+        
+               <div class=" background-inline row hidden-sm hidden-xs">
+                    <div class="  col-sm-12 ">
+                        <h1 > Learn English with ELS</h1>
+                    </div>
+               </div>
+       
+         <div class="container-fluid">
+                  <div class="row">
+                       <div class=" main-body col-sm-6 col-md-6 col-lg-6">
+                       <div class="line"></div>
+                               <h2>Study English with ELS</h2>       
+                               <p>The ability to speak English helps open doors to educational and career opportunities around the world. No matter your goals, ELS helps you reach them.The ELS Advantage
+                               </p>
+                               <p>You can trust ELS with your English language education. Here's Why</p>
+                               <ul class="list-styled">
+                                  <li><b>ELS offers 70+ Centers around the world</b> in exciting locations including: Australia, Canada, China, India, Malaysia, and the United States, many of which are on safe and respected college or university campuses.</li>
+                                  <li><b>Benefit from a world-class curriculum</b>, expert instructors and Center staff, comfortable housing options, and charming locations full of culture and networking opportunities.
+                                  </li> 
+                                  <li><b>ELS maintains partnerships with 650+ prestigious colleges and universities around the world </b>that accept successful completion of the ELS English for Academic Purposes program as proof of the English proficiency required for admission. </li>
+                             </ul>
+                             <p class="lea">Choose the university or college that will help you reach your goals!
+                             </p>
+                          <h5>Featured Partner Universities</h5>
+                          <hr>
+                              <div class="panel panel-default panel-in3">
+                                      <div class="panel-body">
+                                          <div class="panel panel-default panel-in">
+                                             <div class="panel-body">Indiana University - Purdue University Fort Wayne
+                                             </div>
+                                          </div>
+                                          <div class="panel panel-default panel-in2">
+                                            <div class="panel-heading"><h4>Indiana University – Purdue University Fort Wayne | Fort Wayne, Indiana  </h4>                                              <img src="/webform1/images/elsimg1a.png" alt="image is not found" ></img>
+                                               <p>Indiana University – Purdue University Fort Wayne (IPFW), home to ELS/Fort Wayne, is a combined campus of Indiana University and Purdue University, offering more than 200 degrees and certificates from both universities at an affordable price. IPFW’s undergraduate engineering and business programs were recently ranked among the best in the country, and in 2015, U.S. News & World Report named IPFW among the top Regional Universities of the Midwest.</p>
+                                          </div>
+                                       </div>
+                                  </div>
+                            </div>
+                                          <div class="panel panel-default panel-in1">
+                                              <div class="panel-body">McNeese State University
+                                            </div>
+                                          </div>
+                                          <div class="panel panel-default panel-in2">
+                                            <div class="panel-body">California Lutheran University
+                                            </div>
+                                          </div>
+                                          <div class="panel panel-default ">
+                                              <div class="panel-body"><h3>ELS English for Academic Purposes</h3>
+                                              <p>Choose the ELS English for Academic Purposes program to help you gain the skills you need to be successful in an English-speaking college or university setting, and beyond.
+                                              </p>
+                                              <p>In addition to listening, speaking, reading, writing, pronunciation, and grammar, your coursework will focus on crucial academic success skills like critical thinking, presentations and public speaking, note taking, and research. This intensive, academically-focused course is offered to students ranging in language ability from Beginner to Master.
+
+                                              </p>
+                                              <h3>Key Program Facts</h3>
+                                              <ul class="liststyled">
+                                              <li>Minimum Age: Varies by Center and housing option</li>
+                                              <li>Maximum Number of Students: 20 students (Skills Enhancement Classes); 15 students (all other classes, including Structure and Speaking Practice and Reading & Writing)</li>
+                                              <li>Sessions: 26 convenient start dates per year</li>
+                                              <li>Levels: 12 Levels, Beginner through Master (101 – 112)</li>
+                                              </ul>
+                                              </div>
+                                          </div>
+                        </div>
+                          <div class=" main-form col-sm-6 col-md-5 col-lg-4">
+                          <h1 >Contact ELS!</h1>
+                         <form name ="myform" onsubmit="validation()">
+                           <div class="form-group  ">
+                            <label for="exampleInputfirstname" class="form-font"><span class="form-in">*</span> First Name</label>
+                            <input type="text" class="form-control  " name="name"  placeholder="" >
+                            <div id ="errors">
+                              </div>
+                          </div>
+                           <div class="form-group ">
+                          <label for="exampleInputLastname" class="form-font"><span class="form-in">*</span> Last Name</label>
+                          <input type="text" class="form-control" id="Last" placeholder="" name="last1">
+                        </div>
+                        <div class="form-group ">
+                          <label for="exampleInputEmail1" class="form-font"><span class="form-in">*</span> Email address</label>
+                          <input type="email" class="form-control" id="email1" placeholder="" name="email1">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPhonenumber" class="form-font"><span class="form-in">*</span> Phone Number</label>
+                          <input type="integer" class="form-control" id="Phone" placeholder="">
+                        </div>
+                          <div class="form-group">
+                            <label for="exampleCountryofresidence" class="form-font"><span class="form-in">*</span> Country of Residence</label>
+                            <select class="form-control" id=" Residence" name="residence1">
+                                                          <option value="">  </option>
+                                                          <option value="AA">Aruba</option>
+                                                          <option value="AC">Antigua and Barbuda</option>
+                                                          <option value="AE">United Arab Emirates</option>
+                                                           <option value="AF">Afghanistan</option>
+                                                          <option value="AG">Algeria</option>
+                                                          <option value="AJ">Azerbaijan</option>
+                                                          <option value="AL">Albania</option>
+                                                           <option value="AM">Armenia</option>
+                                                           <option value="AN">Andorra</option>
+                                                             <option value="AO">Angola</option>
+                                                              <option value="AR">Argentina</option>
+                                                            <option value="AS">Australia</option>
+                                                            <option value="AT">Ashmore And Cartier Is</option>
+                                                            <option value="AU">Austria</option>
+                                                            <option value="AUS">Australia</option>
+                                                            <option value="AV">Anguilla</option>
+                                                            <option value="BA">Bahrain</option>
+                                                            <option value="BB">Barbados</option>
+                                                            <option value="BC">Botswana</option>
+                                                            <option value="BD">Bermuda</option>
+                                                            <option value="BE">Belgium</option>
+                                                            <option value="BF">Bahamas The</option>
+                                                            <option value="BG">Bangladesh</option>
+                                                            <option value="BH">Belize</option>
+                                                            <option value="BK">Bosnia and Herzegovina</option>
+                                                            <option value="BL">Bolivia</option>
+                                                            <option value="BM">Burma</option>
+                                                            <option value="BN">Benin</option>
+                                                            <option value="BO">Belarus</option>
+                                                            <option value="BP">Solomon Islands</option>
+                                                            <option value="BR">Brazil</option>
+                                                            <option value="BS">Bassas Da India</option>
+                                                            <option value="BT">Bhutan</option>
+                                                            <option value="BU">Bulgaria</option>
+                                                            <option value="BV">Bouvet Island</option>
+                                                            <option value="BX">Brunei</option>
+                                                            <option value="BY">Burundi</option>
+                                                            <option value="CA">Canada</option>
+                                                            <option value="CB">Cambodia</option>
+                                                            <option value="CD">Chad</option>
+                                                            <option value="CE">Sri Lanka</option>
+                                                            <option value="GG">Georgia</option>
+                                                            <option value="GH">Ghana</option>
+                                                            <option value="GI">Gibraltar</option>
+                                                            <option value="GJ">Grenada</option>
+                                                            <option value="GK">Guernsey</option>
+                                                            <option value="GL">Greenland</option>
+                                                            <option value="GM">Germany</option>
+                                                            <option value="GO">Glorioso Islands</option>
+                                                            <option value="GP">Guadeloupe</option>
+                                                            <option value="GR">Greece</option>
+                                                            <option value="GT">Guatemala</option>
+                                                            <option value="GV">Guinea</option>
+                                                            <option value="GY">Guyana</option>
+                                                            <option value="GZ">Gaza Strip</option>
+                                                            <option value="HA">Haiti</option>
+                                                            <option value="HK">Hong Kong</option>
+                                                            <option value="HM">Heard Is &amp; Mcdonald Slands</option>
+                                                            <option value="HO">Honduras</option>
+                                                            <option value="HR">Croatia</option>
+                                                            <option value="HU">Hungary</option>
+                                                            <option value="IC">Iceland</option>
+                                                            <option value="ID">Indonesia</option>
+                                                            <option value="IM">Isle Of Man</option>
+                                                            <option value="IN">India</option>
+                                                            <option value="IO">British Indian Ocean Ter</option>
+                                                            <option value="MO">Morocco</option>
+                                                            <option value="MP">Mauritius</option>
+                                                            <option value="MR">Mauritania</option>
+                                                            <option value="MT">Malta</option>
+                                                            <option value="MU">Oman</option>
+                                                            <option value="MV">Maldives</option>
+                                                            <option value="MW">Montenegro</option>
+                                                            <option value="MX">Mexico</option>
+                                                            <option value="MY">Malaysia</option>
+                                                            <option value="MZ">Mozambique</option>
+                                                            <option value="NC">New Caledonia</option>
+                                                            <option value="NE">Niue</option>
+                                                            <option value="NF">Norfolk Island</option>
+                                                            <option value="NG">Niger</option>
+                                                            <option value="NH">Vanuatu</option>
+                                                            <option value="NI">Nigeria</option>
+                                                            <option value="NL">Netherlands</option>
+                                                            <option value="NO">Norway</option>
+                                                            <option value="NP">Nepal</option>
+                                                            <option value="NR">Nauru</option>
+                                                            <option value="NS">Suriname</option>
+                                                            <option value="NU">Nicaragua</option>
+                                                            <option value="NZ">New Zealand</option>
+                                                            <option value="PA">Paraguay</option>
+                                                            <option value="PC">Pitcairn Islands</option>
+                                                            <option value="PE">Peru</option>
+                                                            <option value="PF">Paracel Islands</option>
+                                                            <option value="PG">Spratly Islands</option>
+                                                            <option value="PK">Pakistan</option>
+                                                            <option value="PL">Poland</option>
+                                                            <option value="PM">Panama</option>
+                                                            <option value="PO">Portugal</option>
+                                                            <option value="PP">Papua New Guinea</option>
+                                                            <option value="PS">Palau</option>
+                                                            <option value="PU">Guinea-Bissau</option>
+                                                            <option value="QA">Qatar</option>
+                                                            <option value="RE">Reunion</option>
+                                                            <option value="RM">Marshall Islands</option>
+                                                            <option value="RN">Saint Martin</option>
+                                                            <option value="RO">Romania</option>
+                                                            <option value="RP">Philippines</option>
+                                                            <option value="RQ">Puerto Rico</option>
+                                                            <option value="RS">Russia</option>
+                                                            <option value="RW">Rwanda</option>
+                                                            <option value="SA">Saudi Arabia</option>
+                                                            <option value="SB">Saint Pierre And Miquelon</option>
+                                                            <option value="SC">Saint Kitts And Nevis</option>
+                                                            <option value="SE">Seychelles</option>
+                                                            <option value="ZA">Zambia</option>
+                                                            <option value="ZI">Zimbabwe</option>
+                                                                        </select> 
+                                                      </div>
+                               <div class="form-group">
+                                  <label for="exampleInputyearborn" class="form-font"><span class="form-in">*</span> Year Born</label>
+                                  <input type="integer" class="form-control" id="born" placeholder="" name="born1">
+                             </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox" id="check" name="check1"> I agree to the  <a href="#">Terms of Use</a>and  <a href="#">Privacy Policy</a>
+                            </label>
+                          </div>
+                <button type="submit" class="btn btn-primary btn-lg  " id="singlebutton">
+                        SUBMIT
+               </button>
+               </form>
+          </div>
+      </div>              
+      
+      <div class="  main-footer row">
+            <div class=" col-sm-12 ">
+                  <footer>
+                    <small class="copyright">
+                                     <sup>©</sup> Copyright 2017 ELS Educational Services, Inc., a <a href="http://www.berlitz.com/" target="_blank">Berlitz company</a>
+                    </small>
+                         
+                         <div class="footer-link2">
+                                      <a href="/en/Accreditation" target="">
+                                         Accreditation
+                                      </a>
+                                      <a href="/en/PrivacyPolicy" target="">
+                                       Privacy Policy
+                                      </a>
+                                       <a href="/en/TermsOfUse" target="">
+                                        Terms
+                                       </a>
+                        </div>
+                 </footer>
+            </div>
+      </div>
+   </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+						
