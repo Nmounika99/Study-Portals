@@ -1,0 +1,12 @@
+body{
+    background-image: url("/webform1/images/regbg7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-form{
+    background-color:black;
+    margin-top:50px;
+    border-radius: 10px;
+    opacity: .7;
+    color: white;
+}

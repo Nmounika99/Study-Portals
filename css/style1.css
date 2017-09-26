@@ -1,0 +1,54 @@
+      .header,  h1{
+        width: 100%;
+
+       
+        background: #333;
+ padding: 10px 0;
+       font-style: italic;
+
+        color: #fff;
+       margin: auto; 
+    }
+    
+    .menu ul{
+    	list-style: none;
+    }
+    .menu ul li a{
+    	background-color: black;
+    	width: 170px;
+    	border:1px solid white;
+    	height:50px;
+    	line-height:50px;
+    	text-align: center;
+    	float: left;
+    	color: white;
+    	font-size: 18px;
+    	margin: auto;
+
+    }
+    .menu ul li a:hover{
+    	background-color: green;
+    }
+    .slide_bar img{
+    	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ position: relative;
+margin: auto;
+padding: 0px;
+height: 100%;
+width: 100%;
+    }
+.footer{
+ width: 100%;
+margin: auto;
+       
+        background: #333;
+ padding: 10px 0;
+  color: #fff;
+        text-align: center;
+}
+.main_class {
+	margin: auto;
+	background-color: red;
+}

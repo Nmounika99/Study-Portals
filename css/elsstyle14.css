@@ -1,0 +1,27 @@
+.container{
+	width: 950px;
+	height: 1000px;
+	
+}
+.header{
+	
+	height:90px;
+	background: #f2f2f0;
+	margin: 15px;
+}
+.header-logo img{
+	width:100px;
+	height:70px;
+	margin:10px 10px 10px 10px;
+	position: relative;
+	float: left;
+}
+.header ul{
+	display: inline-block;
+	display: block;
+	list-style-type: none;
+		position: relative;
+	float: left;
+}
+.header ul li{
+	font-size: 10px;

@@ -1,0 +1,95 @@
+.background {
+	
+}
+.main-form{
+  
+    margin-left:300px;
+
+}
+
+.form-control{
+    height: 30%;
+}
+.form-input{
+	border-radius: 0px !important;
+	padding: 12px 30px;
+    margin: 5px 0;
+    width:110% !important;
+    height: 100% !important;
+}
+.form-font{
+	line-height: 24px;
+color: #666;
+font-weight: normal;
+}
+#form-font1{
+	line-height: 30px;
+color: #666;
+font-weight: normal;
+}
+.form-color{
+	color:red;		
+}
+.form-space{
+	margin-bottom: 40px;
+}
+#singlebutton1{
+	background: #00a5df;
+border: 0;
+color: #fff;
+display: block;
+font-size: 2.5rem;
+font-weight: 700;
+margin: 0 auto;
+margin-top:50px;
+padding: 20px;
+text-align: center;
+text-transform: uppercase;
+width: 280px;
+height:90px;
+transition: background .2s ease;
+}
+#singlebutton1:hover{
+	background-color: white;
+	color:  #00a5df;
+	border-style: 1px solid;
+	border-color:  #00a5df;
+}
+a {
+    color: #00a5df;
+}
+.content-font {
+	text-align: center;
+	font-size: 50px;
+}
+/* Large desktops and laptops */
+
+@media (max-width: 360px){
+	.form-mob{
+		width: 100%;
+		float: left;
+		margin: auto;
+		
+	}
+	.main-form{
+		width: 100%;
+		float: left;
+		margin: auto;
+	}
+}
+.main-image{
+background-image: url("/webform1/images/regbg.jpg");
+   background-repeat: no-repeat;
+	 background-size: cover;
+		 }
+.form-mob1{
+	background-color:violet;
+    margin-top:150px;
+}
+.form-input1{
+	border-radius: 0px !important;
+	padding: 12px 30px;
+    margin: 5px 0;
+    width:60% !important;
+    height: 100% !important;
+}

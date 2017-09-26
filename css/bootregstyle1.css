@@ -1,0 +1,20 @@
+.main-image{
+    background-image: url("/webform1/images/regbg2.jpg");
+    
+}
+
+.main-form{
+    background-color:whitesmoke;
+    margin-top:150px;
+}
+.header img{
+width:30%;
+height:40%;
+}
+#form-input{
+	border-radius: 0px !important;
+	padding: 12px 30px;
+    margin: 5px 0;
+    width:120% !important;
+    height: 80% !important;
+}

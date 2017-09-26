@@ -1,0 +1,37 @@
+.form-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 0px;
+    background: #B3E5FC;
+    color: #00838F;
+}
+form-container .form-title {
+    font-size: 25px;
+    color: inherit;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-container .input-container {
+    padding: 0px 20px;
+}
+.form-container .req-input {
+    width: 100%;
+    float: left;
+    position: relative;
+    background: #00BCD4;
+    height: 60px;
+    display: inline-block;
+    border-radius: 0px;
+    margin: 5px 0px;
+}
+.form-container .req-input .input-status {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+body{
+      background-image: url("/webform1/images/regbg.jpg");
+   background-repeat: no-repeat;
+	 background-size: cover;
+}

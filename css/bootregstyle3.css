@@ -1,0 +1,22 @@
+.main{
+    margin:margin: 50px 15px;
+}
+body{
+
+    background-image: url("/webform1/images/regbg9.jpg");
+   background-repeat: no-repeat;
+	 background-size: cover;
+}
+.main-center{
+    background-color:darkviolet;
+    margin-top:150px;
+    border-radius: 10px;
+    margin-left:100px;
+    opacity: .5;
+  
+   margin-left:10px;
+    max-width: 400px;
+    padding: 10px 40px;
+    color: #FFF;
+    text-shadow: none;
+}

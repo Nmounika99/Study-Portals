@@ -1,0 +1,111 @@
+.container img{
+    
+    width: 1500px;
+    height:940px;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+.inner img{
+   width:300px;
+   height: 150px;
+margin-left:500px;
+position: absolute;
+top:70px;
+}
+.form{
+    height:550px;
+    width:400px;
+    background-color:lightgray;
+    margin-left:350px;
+    
+    margin-top: 50px;
+position: absolute;
+top:40px;
+}
+.titles{
+    font-size: 14px;
+        line-height: 24px;
+   color:black;
+    font-weight: normal;
+display: inline-block;
+max-width: 100%;
+
+margin-left: 30px;
+margin-top: 5px;
+}
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    border-radius:10px;
+}
+input[type=email], select {
+    width: 90%;
+    padding: 12px 20px;
+    padding-left: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 50px;
+    margin-left: 30px;
+    border-radius:10px;
+}
+input[type=password], select {
+    width: 90%;
+    padding: 12px 20px;
+    padding-left: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 50px;
+    margin-left: 30px;
+    border-radius:10px;
+}
+input[type=textarea], select {
+     width: 90%;
+    padding: 12px 20px;
+    padding-left: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 100px;
+    margin-left: 30px;
+    border-radius:10px;
+}
+input[type=radio] {
+    margin-left: 30px; 
+}
+.inpu {
+    font-size: 15px;
+}
+input[type=submit] {
+    background: gray;
+border: 0;
+color:black;
+display: block;
+font-size: 1.2rem;
+font-weight: 700;
+margin-left: 70px;
+padding: 12px 20px;
+padding: 20px;
+margin-top: 30px;
+
+text-align: center;
+text-transform: uppercase;
+width: 300px;
+transition: background .2s ease;
+border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: gold;
+}

@@ -1,0 +1,177 @@
+.body-main {
+ margin: 15px;
+background-color: lightgray;	
+height: 200px;
+}
+.header img{
+  height: 90px;
+  margin: 15px ;
+  background-color: lightgray;
+}
+.Drop-down{
+	margin-top: 10px;
+	margin-right: 600px;
+	float: right;
+}
+.Drop-down select{
+  width: 110%;
+    padding: 12px 20px;
+    margin: 8px 0;
+   
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.background img {
+margin-right: 15px;
+width: 100%;
+height: 100%;
+max-height: 700px;
+background-position: 100% 100%;
+position: absolute;
+left: 40px;
+}
+.nav-bar
+{
+      display: block;
+    margin-bottom: 15px;
+    text-align: right;
+}
+}
+.inner-block{
+  position: absolute; 
+   top: 140px; 
+   margin-left: 40px;
+   background-color: white;
+   width:500px;
+   font-size: 30px;
+   text-align: center;
+   border-top: thick solid;
+   border-top-color: orange;
+   margin-top: 0px;
+}
+.content{
+	
+	width: 50%;
+	margin: 25px;
+}
+.content p{
+
+	font-size: 25px;
+	margin-top: 45px;
+margin-left: -2px;
+}
+.content-in p{
+	font-size: 13px;
+}
+.content-in1 p{
+	color: darkorange;
+	font-size: 20px;
+	font-style: bold;
+}
+.form {
+  background-color: lightgray;
+  width: 550px;
+  height: 900px;
+  margin: auto;
+  position: absolute;
+  top: 350px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.para{
+	    font-size: 50px;
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    right: 400px;
+    bottom: 0px;
+color: white;
+}
+.para-in {
+       font-size: 25px;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    right: 300px;
+    bottom: 0px;
+    color: white;
+}
+
+.titles{
+	float: left;
+	width:120%;
+	padding:3%;
+	font-size: 17px;
+opacity: .5;
+}
+.inline{
+  color: blue;
+}
+input[type=text], select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 95%;
+    padding: 12px 20px;
+    padding-left: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.content-down {
+  top:1400px;
+  position: absolute;
+  text-align: center;
+  margin: 0 440px;
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.content-down1 h3{
+ margin-top: 0;
+margin-bottom: 30px;
+color: #000;
+font-weight: bold;
+font-size: 1.4em;
+}
+.content-down2 p{
+      margin-left: 150px;
+      margin-right: 150px;
+      margin-bottom: 150px;
+      display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.8em;
+  line-height: 1.5em;
+    height: 3em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;  
+      
+}
