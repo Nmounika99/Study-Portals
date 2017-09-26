@@ -1,0 +1,83 @@
+<html>
+<head>
+<script>
+function validateForm() {
+    var errormessage="";
+    if (document.getElementById('fname').value=""){
+    	errormessage+="name is required";
+    	document.getElementById('fname');
+    }
+     if (document.getElementById('lname').value=""){
+    	errormessage+="lname is required";
+    	document.getElementById('lname');
+    }
+     if (document.getElementById('email').value=""){
+    	errormessage+="name is required";
+    	document.getElementById('email');
+    }
+}
+</script>
+</head>
+<body>
+<div class="container">
+<img src="/webform/images/regbg.jpg"></div>
+<div class="header">
+	
+</div>
+<div class="form_list">
+<form name="myForm" action="/action_page_post.php"
+onsubmit="return validateForm()" method="post">
+		
+                <div class="titles"> <span class="title-in">*</span> First Name  </div>
+                                    <div class="inputs"> <input type="text" name="fname">  </div>
+                                    <div id="name_error" class="var_error"></div>
+ 
+                                    <div class="titles"> *Last Name/Family Name  </div>
+                                    <div class="inputs"> <input type="text" name="lname">  </div>
+                                    <div id="lastname_error" class="var_error"></div>
+                                    <div class="titles">  *Gender </div>
+                                  <div class="inputs"> 
+                                   <input type="radio" name="gnd" checked/>Male
+                                 <input type="radio" name="gnd"/>Female 
+                                  </div>
+ 
+                                 <div class="titles"> *Email  </div>
+                                 <div class="inputs"> <input type="email" value="" name="email" />  </div>
+                                   <div id="email_error" class="var_error"></div>
+                                <div class="titles"> *Phone Number/Mobile Number </div>
+                                <div class="inputs"> <input type="text" value="Phone Number/Mobile" />  </div>
+                                  <div class="titles"> *Country of residence  </div>
+                                 <div class="inputs">  
+                                  <select>
+                                  <option value="AA">Aruba</option>
+                                  <option value="AC">Antigua and Barbuda</option>
+                                  <option value="AE">United Arab Emirates</option>
+                                   <option value="AF">Afghanistan</option>
+                                  <option value="AG">Algeria</option>
+                                  <option value="AJ">Azerbaijan</option>
+                                  <option value="AL">Albania</option>
+                                   <option value="AM">Armenia</option>
+                                   <option value="AN">Andorra</option>
+                                     <option value="AO">Angola</option>
+                                       <option value="AR">Argentina</option>
+
+            </select> 
+       </div>
+ 
+                                <div class="titles"> * Year Born  </div>
+                                 <div class="inputs"> <input type="text" value="" />  </div>
+                                 <div class="titles">   </div>
+                                  <div class="inpu"> <input type="checkbox" value="" /> I agree to the Terms of Use and Privacy Policy</div>
+
+                          <div class="btn">  <input type="submit" value="SUBMIT" class="botn"/> </div>
+
+                            </div>
+                         </form>                    
+
+</div>
+
+
+
+
+</body>
+</html>

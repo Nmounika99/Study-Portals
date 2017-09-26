@@ -1,0 +1,146 @@
+<!Doctype html>
+<html>
+<head>
+	
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/webform1/css/bootelsstyle1.css" >
+<title>Landing Page</title></head>
+<body>
+<div class=" container-fluid">
+    <div class=" header row">
+        <div class=" col-sm-6 col-md-4">
+          <img src="/webform1/images/els-logo.png" alt="els image">
+        </div>
+          <div class=" col-sm-6 col-md-8">
+
+
+    <ul class="breadcrumb">
+
+        <li><a href="#">ABOUT US</a></li>
+
+        <li><a href="#">ASK A QUESTION</a></li>
+
+        <li ><a href="#">DOWNLOAD A BROCHURE</a></li>
+        <li><a href="#">MY ELS</a></li>
+         <li><a href="#">APPLY</a></li>
+
+    </ul>
+
+</div>
+      </div>
+</div>  
+        <div class=" container-fluid">
+               <div class=" background row">
+               <div class=" col-size col-md-5">
+                 <h2>Find your future</h2>
+                 <p class="lead">Study English in Australia, Canada, China, India, Malaysia and the USA. Experience a world of possibilities with ELS. </p>
+                 <ul class="nav navbar-nav  nav-style">
+                    <li ><a href="#program">Find a Program</a></li>
+                    <li><a href="#Center">Find a Language Center</a></li>
+                    <li><a href="#Partner">Find a Partner University</a></li>
+                   
+                  </ul>
+               </div>
+                    <div class="  col-md-6">
+                       <img class="mySlides" src="/webform1/images/elsimg16a.jpg" alt="els image missing" >
+                          <img class="mySlides" src="/webform1/images/elsimg15b.jpg" alt="missing" >
+                             <img class="mySlides" src="/webform1/images/elsimg15c.jpg" alt="missing" >
+                               
+               </div>
+         </div>
+         </div>
+         <div class="container-fluid">
+           <div class=" background row">
+             <div class="  col-md-4 ">
+              <div class="line"></div>
+                 <h2 class="size"><a name="program">Find the Right Program</a></h2>
+                 <p class="lead">Choose from Academic English, General English, Test Preparation, Business Communication, and Youth & Young Adult Programs </p>
+                 </div>
+           </div>
+         </div>
+         
+         <div class="container-fluid">
+           <div class=" background row">
+             <div class=" col-images col-md-4 ">
+           <a name="Center">  <img src="/webform1/images/elsimg16b.jpg" ></a>
+                 </div>
+           </div>
+         </div>
+    <div class="container-fluid">
+           <div class=" background row">
+             <div class="  col-md-4 ">
+              <div class="line"></div>
+                 <h2 class="size"><a name="Partner">Find a Partner University</a></h2>
+                 <p class="lead">We have relationships with 650+ universities around the world. You can apply for conditional admission before you have mastered English, and once you have graduated from ELS, you can enter the university of your choice. </p>
+                 </div>
+           </div>
+         </div>
+          <div class="container-fluid">
+           <div class=" background row">
+             <div class=" col-images col-md-7 ">
+             <img class="mySlides" src="/webform1/images/elsimg16c.png" alt="els image missing" >
+             <img class="mySlides" src="/webform1/images/elsimg16d.png" alt="els image missing" >
+                 </div>
+           </div>
+         </div>
+         <div class="container-fluid">
+           <div class=" background row">
+             <div class=" col-images col-md-7 ">
+             <div class="line"></div>
+                 <h2 class="size">Why Choose ELS</h2>
+                 <p class="lead">We put you first. No one else can match the choices and experts we have. Our focus is on your success and we can guide you there.  </p>
+                 </div>
+           </div>
+         </div>
+         <div class="container-fluid">
+           <div class=" background row">
+             <div class=" col-images col-md-7 ">
+             <img src="/webform1/images/elsimg16e.jpg" >
+                 </div>
+           </div>
+         </div>
+         <div class="  main-footer row">
+            <div class=" col-sm-12 ">
+                  <footer>
+                    <small class="copyright">
+                                     <sup>©</sup> Copyright 2017 ELS Educational Services, Inc., a <a href="http://www.berlitz.com/" target="_blank">Berlitz company</a>
+                    </small>
+                         
+                         <div class="footer-link2">
+                                      <a href="/en/Accreditation" target="">
+                                         Accreditation
+                                      </a>
+                                      <a href="/en/PrivacyPolicy" target="">
+                                       Privacy Policy
+                                      </a>
+                                       <a href="/en/TermsOfUse" target="">
+                                        Terms
+                                       </a>
+                        </div>
+                 </footer>
+            </div>
+      </div>
+   </div>
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
