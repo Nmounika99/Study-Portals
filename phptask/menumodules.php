@@ -1,6 +1,19 @@
 	<?php
 	system("clear");
-	//if user is valid as soon as user enters to welcome page of Sugar CRM 
+    $User_Name=readline("Enter User Name");
+    $pass1=readline("Enter Password");
+    include 'connect.php';
+        //Inserting data into contacts
+		$sql = "INSERT INTO loginusers values('$User_Name','$pass1')";     
+    	if (mysqli_query($conn, $sql)) 
+		{
+        
+		} 
+		else 
+		{
+		 echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+	//if user is valid as soon as user can enters to welcome page of Sugar CRM 
 	echo " *************************** \033[31;47m Welcome to Sugar CRM \033[0m *****************************\n";
 	echo "\033[32m Press e to go to Main Menu  \033[0m"	;
 	$stdin = fopen("php://stdin","r");
@@ -238,11 +251,27 @@
 	{//editing contacs
 		echo "*** \033[35mEditing \033[0m ***" ;
 		//including connections of mysql 
-		include 'connect.php';
 		$ID= readline("Enter ID ");
-		$Last_Name=readline("Enter Last Name");
+		$recordinsert = array("First_Name","Last_Name","ID","Title","Department","Account_Name",
+      "Mobile_Phone","Office_Phone","Home_Phone","Other_Phone","Fax","Primary_AddressStreet",
+      "Primary_AddressCity","Primary_AddressState","Primary_AddressPostalCode",
+      "Primary_AddressCountry","Alternate_AddressStreet","Alternate_AddressCity",
+      "Alternate_AddressState","Alternate_AddressPostalCode","Alternate_AddressCountry",
+      "Description","Birthdate","Assigned_UserName","Full_Name","Facebook_Account",
+      "Twitter_Account", "Google_PlusID", "Email");
+		$insertvalues=array();
+		foreach ($recordinsert as $insert) 
+		{  
+			echo "Enter the value $insert";
+			 $insertvalue=readline();
+			 array_push($insertvalues, $insertvalue);
+		}
+		//including connections of mysql 
+		include 'connect.php';
+        //Inserting data into contacts
+    	$s = implode("','", $insertvalues);
 		//updating single column by using ID as a primary key
-		$sql = "UPDATE $modulename SET Last_Name='$Last_Name' WHERE id=$ID";
+		$sql = "UPDATE $modulename SET $s WHERE id=$ID";
 		if (mysqli_query($conn, $sql)) 
 		{
     		
